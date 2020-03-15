@@ -1,3 +1,5 @@
+// DOC: Set background color to mix and vary with time
+
 const vshader = `
 void main() {	
   gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );

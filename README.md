@@ -1,6 +1,9 @@
 NOTES
 -----
 
+* ThreeJS reference: https://threejs.org/docs/#api/en/renderers/webgl/WebGLProgram
+
+
 1. Need a vertex shader and a fragment shader and both of these must have a main() function.
 2. The vertex shader main() must set the value of gl_Position and uses the:
     - Projection Matrix
@@ -21,3 +24,5 @@ TRANSFORMING THE VERTEX
 
 * Pass a variable called a uniform from control program (threejs) to GLSL shader.
 * Use event listener to get position of mouse.
+* mix(x, y, a) = (1-a)*x + a*y;
+* Varyings: Variable that you pass from the vertex shader to the fragment shader.

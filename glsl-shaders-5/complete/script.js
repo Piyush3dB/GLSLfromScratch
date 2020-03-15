@@ -1,3 +1,5 @@
+// DOC: Set background color using varyings and clamp
+
 const vshader = `
 varying vec3 v_Position;
 
